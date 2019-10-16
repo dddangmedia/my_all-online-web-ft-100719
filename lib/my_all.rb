@@ -10,5 +10,4 @@ def my_all?(collection)
   block_return_values
 end
 
-binding.pry
 my_all?([1,2,3]) {|i| i < 2}
